@@ -23,11 +23,6 @@ The dataset used for this project only consist of 4 features as shown below. The
 The sample space is represented by randomly distributed positively labelled data and unlabelled data. Some of the unlabelled samples are first randomly labelled as negative, a decision tree is then constructed based on these data to classify the remaining labelled sample as either positive (1) or negative (0). These process are repeated for *T* times where *T* is the number of bagging size. In each iteration a new set of sample are forced to be negatively labelled for the classifier. The synthesizability score of an unlabelled sample is calculated as the average of the predictive score from all the decision tree classifiers that do not contain that sample. A score of greater than 0.5 is labelled as positive and vise versa. The model is trained by *T* iterations and repeated *R* times with the data split into *k* number of folds. Upper limit for *k* value is the number of positively labelled entries in respective dataset. Hyperparameter tuning is performed based on these three parameters.
 
 ## Results
-The correlation matrix of MAX (left) and MXene (right) is shown below. Both MAX and MXene demonstrated weak interaction between in-plane lattice constant (*a*) and cohesive energy
-(*Ecoh*). Since cohesive energy is the energy gained by arranging the atoms in a crystalline state. This indicates that changes in lattice parameter due to intercalation of larger ions has minimal interference on cohesive energy. Strongest correlation for both MAX and MXene is between formation energy ($E_{form}$) and PU label. This is in agreement with Frey et al.’s feature selection result which indicated strong dependency of synthesizability from formation energy.
-
-![correlation.png](correlation.png)
-
 
 
  </div>
