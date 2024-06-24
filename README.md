@@ -1,5 +1,7 @@
 # PUMML_MXene_Synthesize
  <div align="justify">
+
+ ## Please note: This repository is currently non-functional due to a critical dependency on a now unmaintained and non-operational package. We are exploring alternatives and updates will be provided when available.
    
 Prediction of Synthesis of 2D Metal Carbides and Nitrides (MXenes) and Their Precursors with Positive and Unlabeled Machine Learning.
 This is a course project completed as part of my PhD program.
